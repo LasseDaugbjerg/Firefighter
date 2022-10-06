@@ -4,6 +4,7 @@ const clickBtn = document.getElementById('fireClick')
 const firePicture = document.querySelector('.firePic')
 const smokePicture = document.querySelector('.smokePic')
 
+
 // Functions
 function displayOfScore ()
 {
@@ -18,19 +19,26 @@ function changeToSmoke (){
     smokePicture.style.display = "block"
 }
 
+
+
+
 // Variables
 var score = 0;
 var clickBtnValue = 1;
+
+
+
+
 
 // addEventListener
 clickBtn.addEventListener('click', function (){
     score+=clickBtnValue
     displayOfScore()
-    if (score > 10)
-    {
+    if (score > 29)
+        {
         changePicture()
         changeToSmoke()
-    }
-
+        }
 })
+
 

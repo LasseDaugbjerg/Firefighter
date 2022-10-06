@@ -1,8 +1,19 @@
+body
+{
+    background-image: url("firestation3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.displayBox
+{
+    background-color: white;
+}
+
 #display
 {
     margin: auto;
     text-align: center;
-
 }
 
 .leftPart
