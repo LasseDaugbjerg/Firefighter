@@ -26,7 +26,7 @@ var clickBtnValue = 1;
 clickBtn.addEventListener('click', function (){
     score+=clickBtnValue
     displayOfScore()
-    if (score > 10)
+    if (score > 280)
     {
         changePicture()
         changeToSmoke()
